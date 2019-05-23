@@ -7,4 +7,4 @@
 4. After the installation complete.
 5. Type `npm start` or `yarn start`.
 
-For a live version of this app visit here (https://findfalcone-front-end.herokuapp.com/)[https://findfalcone-front-end.herokuapp.com/]
+For a live version of this app visit here [https://findfalcone-front-end.herokuapp.com/](https://findfalcone-front-end.herokuapp.com/)
