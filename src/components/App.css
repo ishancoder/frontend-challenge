@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: teal;
+  overflow: hidden;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.selector-result-container {
+  width: 100vw;
+  height: 200px;
+  position: relative;
+}
+
+.selector-result-container>div {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  transition: all 500ms ease-in-out;
+  text-align: center;
+}
+
+.hide-right {
+  transform: translateX(100vw);
+}
+
+.hide-left {
+  transform: translate(-200vw);
+  display: none;
+}
+
+.show {
+  transform: translateX(0vw);
+}
+
+button {
+  margin-top: 100px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  padding: 10px 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: darkorange;
+  color: white;
+  box-shadow: 0 10px 20px -5px black;
+  transition: all 100ms ease-in-out;
+}
+
+button:hover {
+  background: orange;
+}

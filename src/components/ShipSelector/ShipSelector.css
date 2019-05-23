@@ -1,0 +1,11 @@
+.ship-selector {
+    display: inline;
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+}
+
+.ship-selector label{
+    display: block;
+    padding: 5px;
+}
